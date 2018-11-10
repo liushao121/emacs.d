@@ -19,10 +19,10 @@
   ;;(add-to-list 'package-archives (cons "melpa-mirror" (concat proto "://www.mirrorservice.org/sites/melpa.org/packages/")) t)
   (if (< emacs-major-version 24)
       ;; For important compatibility libraries like cl-lib
-      (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.emacs-china.org/gun/")))
+      (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.emacs-china.org/melpa/")))
     (unless no-ssl
       ;; Force SSL for GNU ELPA
-      (setcdr (assoc "gnu" package-archives) "http://elpa.emacs-china.org/gun/"))))
+      (setcdr (assoc "gnu" package-archives) "http://elpa.emacs-china.org/melpa/"))))
 (add-to-list 'package-archives '("melpa" . "http://elpa.emacs-china.org/melpa/"))
 
 ;;; On-demand installation of packages
