@@ -48,7 +48,8 @@
 (require-package 'diminish)
 (require-package 'scratch)
 (require-package 'command-log-mode)
-
+;; typescript support
+(require 'init-tide)
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
