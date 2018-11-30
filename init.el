@@ -49,7 +49,7 @@
 (require-package 'scratch)
 (require-package 'command-log-mode)
 ;; typescript support
-(require 'init-tide)
+;;(require 'init-tide)
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
@@ -80,7 +80,7 @@
 (require 'init-git)
 (require 'init-github)
 
-(require 'init-projectile)
+;;(require 'init-projectile)
 
 (require 'init-compile)
 ;;(require 'init-crontab)
